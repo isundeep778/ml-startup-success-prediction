@@ -1,0 +1,129 @@
+{
+  "engineered_features": {
+    "ltv_cac_ratio": {
+      "requires": [
+        "ltv_usd",
+        "cac_usd"
+      ]
+    },
+    "startup_age": {
+      "requires": [
+        "founding_year"
+      ]
+    },
+    "is_profitable": {
+      "requires": [
+        "profit_margin_pct"
+      ]
+    },
+    "high_growth": {
+      "requires": [
+        "monthly_growth_rate_pct"
+      ]
+    }
+  },
+  "numeric_features": [
+    "unnamed: 0",
+    "latitude",
+    "longitude",
+    "labels",
+    "age_first_funding_year",
+    "age_last_funding_year",
+    "age_first_milestone_year",
+    "age_last_milestone_year",
+    "relationships",
+    "funding_rounds",
+    "funding_total_usd",
+    "milestones",
+    "is_ca",
+    "is_ny",
+    "is_ma",
+    "is_tx",
+    "is_otherstate",
+    "is_software",
+    "is_web",
+    "is_mobile",
+    "is_enterprise",
+    "is_advertising",
+    "is_gamesvideo",
+    "is_ecommerce",
+    "is_biotech",
+    "is_consulting",
+    "is_othercategory",
+    "has_vc",
+    "has_angel",
+    "has_rounda",
+    "has_roundb",
+    "has_roundc",
+    "has_roundd",
+    "avg_participants",
+    "is_top500"
+  ],
+  "categorical_features": [
+    "state_code",
+    "zip_code",
+    "id",
+    "city",
+    "unnamed: 6",
+    "name",
+    "founded_at",
+    "closed_at",
+    "first_funding_at",
+    "last_funding_at",
+    "state_code.1",
+    "category_code",
+    "object_id",
+    "status"
+  ],
+  "all_input_features": [
+    "unnamed: 0",
+    "state_code",
+    "latitude",
+    "longitude",
+    "zip_code",
+    "id",
+    "city",
+    "unnamed: 6",
+    "name",
+    "labels",
+    "founded_at",
+    "closed_at",
+    "first_funding_at",
+    "last_funding_at",
+    "age_first_funding_year",
+    "age_last_funding_year",
+    "age_first_milestone_year",
+    "age_last_milestone_year",
+    "relationships",
+    "funding_rounds",
+    "funding_total_usd",
+    "milestones",
+    "state_code.1",
+    "is_ca",
+    "is_ny",
+    "is_ma",
+    "is_tx",
+    "is_otherstate",
+    "category_code",
+    "is_software",
+    "is_web",
+    "is_mobile",
+    "is_enterprise",
+    "is_advertising",
+    "is_gamesvideo",
+    "is_ecommerce",
+    "is_biotech",
+    "is_consulting",
+    "is_othercategory",
+    "object_id",
+    "has_vc",
+    "has_angel",
+    "has_rounda",
+    "has_roundb",
+    "has_roundc",
+    "has_roundd",
+    "avg_participants",
+    "is_top500",
+    "status"
+  ]
+}
